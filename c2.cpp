@@ -1,8 +1,10 @@
 #include<iostream>
+using namespace std;
 
+void printname(){
+    cout << "vinay patil";
+}
 int main(){
-    std::cout << "hello world";
-    std::cin.get();
-    
+    printname();
     return 0;
 }
